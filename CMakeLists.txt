@@ -21,7 +21,7 @@ option(IPOPT "should ipopt be linked" OFF)
 option(BOOST "Use Boost (required to build the binary). Disable if you only want to build libsoplex." OFF)
 option(QUADMATH "should quadmath library be used" OFF)
 option(MPFR "Use MPFR" OFF)
-set(SYM none CACHE STRING "options for symmetry computation")
+set(SYM bliss CACHE STRING "options for symmetry computation")
 
 include_directories(
    soplex/src
