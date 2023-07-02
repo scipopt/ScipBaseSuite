@@ -1,6 +1,6 @@
 [submodule "scip"]
 	path = scip
-	url = git@github.com:scipopt/scip.git
+	url = https://github.com/scipopt/scip.git
 [submodule "soplex"]
 	path = soplex
-	url = git@github.com:scipopt/soplex.git
+	url = https://github.com/scipopt/soplex.git
