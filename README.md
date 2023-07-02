@@ -9,7 +9,7 @@ git submodule update --init --recursive
 mkdir build
 cd build
 cmake ..
-make
+make -j
 ```
 
 The first line fetches `scip` and `soplex` from their GitHub repositories.
